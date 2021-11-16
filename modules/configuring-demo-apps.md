@@ -1,4 +1,4 @@
-# Module 4: Configuring demo applications
+# Module 2: Configuring demo applications
 
 **Goal:** Deploy and configure demo applications.
 
@@ -32,23 +32,5 @@
     kubectl apply -f https://raw.githubusercontent.com/GoogleCloudPlatform/microservices-demo/master/release/kubernetes-manifests.yaml
     ```
 
-4. Deploy compliance reports.
 
-    >The reports will be needed for one of a later lab.
-
-    ```bash
-    kubectl apply -f demo/40-compliance-reports/daily-cis-results.yaml
-    kubectl apply -f demo/40-compliance-reports/cluster-reports.yaml
-    ```
-
-5. Deploy global alerts.
-
-    >The alerts will be explored in a later lab.
-
-    ```bash
-    kubectl apply -f demo/50-alerts/globalnetworkset.changed.yaml
-    kubectl apply -f demo/50-alerts/unsanctioned.dns.access.yaml
-    kubectl apply -f demo/50-alerts/unsanctioned.lateral.access.yaml
-    ```
-
-[Next -> Module 5](../modules/enable-l7-logs.md)
+[Next -> Module 3](../modules/enable-l7-logs.md)
