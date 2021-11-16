@@ -22,9 +22,10 @@ In this workshop we are going to focus on these main use cases:
 
 ## Modules
 
-- [Module 1: Configuring demo applications](modules/configuring-demo-apps.md)
-- [Module 2: Using security controls](modules/using-security-controls.md)
-- [Module 3: Using egress access controls](modules/using-egress-access-controls.md)
-- [Module 4: Securing EKS hosts](modules/securing-heps.md)
-- [Module 5: Using observability tools](modules/using-observability-tools.md)
+- [Module 1: Joining cluster to Calico Cloud](modules/joining-eks-to-calico-cloud.md)
+- [Module 2: Configuring demo applications](modules/configuring-demo-apps.md)
+- [Module 3: Using security controls](modules/using-security-controls.md)
+- [Module 4: Using egress access controls](modules/using-egress-access-controls.md)
+- [Module 5: Securing EKS hosts](modules/securing-heps.md)
+
 
