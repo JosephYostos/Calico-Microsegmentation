@@ -1,12 +1,12 @@
-# Module 3: Joining EKS cluster to Calico Cloud
+# Module 1: Joining cluster to Calico Cloud
 
-**Goal:** Join EKS cluster to Calico Cloud management plane.
+**Goal:** Join  cluster to Calico Cloud management plane.
 
 >In order to complete this module, you must have [Calico Cloud trial account](https://www.tigera.io/tigera-products/calico-cloud/).
 
 ## Steps
 
-1. Join EKS cluster to Calico Cloud management plane.
+1. Join cluster to Calico Cloud management plane.
 
     Use Calico Cloud install script provided in the welcome email for Calico Cloud trial account.
 
@@ -46,14 +46,5 @@
     kubectl patch felixconfiguration.p default -p '{"spec":{"flowLogsFileAggregationKindForAllowed":1}}'
     ```
 
-3. Enable TCP stats collection.
 
-    >This feature allows collection of TCP socket stats leveraging eBPF TC programs. See the docs for [more details](https://docs.tigera.io/visibility/elastic/flow/tcpstats).
-
-    ```bash
-     kubectl patch felixconfiguration default -p '{"spec":{"flowLogsCollectTcpStats":true}}'
-    ```
-
-    In module 9 you can view these stats in the `Socket stats` tab on the right hand side when selecting a traffic flow edge.
-
-[Next -> Module 4](../modules/configuring-demo-apps.md)
+[Next -> Module 2](../modules/configuring-demo-apps.md)
