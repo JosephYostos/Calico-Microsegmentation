@@ -33,4 +33,4 @@
     ```
 
 
-[Next -> Module 3](../modules/enable-l7-logs.md)
+[Next -> Module 3](../modules/modules/using-security-controls.md)
